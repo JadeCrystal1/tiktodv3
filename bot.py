@@ -35,7 +35,7 @@ class Bot:
         chrome_options.add_argument("--disable-software-rasterizer")
         chrome_options.add_argument("--log-level=3")  # Suppress most logs
         chrome_options.add_argument("--disable-logging")  # Disable logging
-        
+        chrome_options.add_argument(`C:/Tutorial/tiktodv3/ublock.crx`)
         self.driver = webdriver.Chrome(options=chrome_options)
 
         # Block requests to fundingchoicesmessages.google.com
